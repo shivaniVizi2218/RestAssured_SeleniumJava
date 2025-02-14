@@ -1,0 +1,10 @@
+com\swagTest\SwagLabsTest.class
+com\pages\LogOutPage.class
+com\swagTest\utils\JsonDataReader.class
+com\swagTest\BaseTest.class
+com\swagTest\utils\ClearLogs.class
+com\swagTest\utils\AllureResultsCleanUpListener.class
+com\pages\LoginPage.class
+com\pages\CheckOutPage.class
+com\pages\ProductPage.class
+com\swagTest\utils\ITestListenerClass.class

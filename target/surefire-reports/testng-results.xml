@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-25T18:08:58 IST" name="TestSuite" finished-at="2024-09-25T18:09:08 IST" duration-ms="9223">
+    <groups>
+    </groups>
+    <test started-at="2024-09-25T18:08:58 IST" name="TestOnChrome" finished-at="2024-09-25T18:09:03 IST" duration-ms="5101">
+      <class name="com.swagTest.SwagLabsTest">
+        <test-method is-config="true" signature="intialBrowserSetUp(java.lang.String)[pri:0, instance:com.swagTest.SwagLabsTest@6a62689d]" started-at="2024-09-25T18:08:58 IST" name="intialBrowserSetUp" finished-at="2024-09-25T18:09:00 IST" duration-ms="1713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialBrowserSetUp -->
+        <test-method signature="launchApp(java.lang.String)[pri:0, instance:com.swagTest.SwagLabsTest@6a62689d]" started-at="2024-09-25T18:09:00 IST" name="launchApp" finished-at="2024-09-25T18:09:01 IST" duration-ms="1118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="Swaglogin(java.lang.String,java.lang.String)[pri:1, instance:com.swagTest.SwagLabsTest@6a62689d]" started-at="2024-09-25T18:09:01 IST" name="Swaglogin" finished-at="2024-09-25T18:09:02 IST" duration-ms="453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Swaglogin -->
+        <test-method signature="addingProductToCartAndRemove()[pri:2, instance:com.swagTest.SwagLabsTest@6a62689d]" started-at="2024-09-25T18:09:02 IST" name="addingProductToCartAndRemove" finished-at="2024-09-25T18:09:02 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingProductToCartAndRemove -->
+        <test-method signature="addProductToCart()[pri:3, instance:com.swagTest.SwagLabsTest@6a62689d]" started-at="2024-09-25T18:09:02 IST" name="addProductToCart" finished-at="2024-09-25T18:09:03 IST" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method signature="checkOutTheProduct(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.swagTest.SwagLabsTest@6a62689d]" started-at="2024-09-25T18:09:03 IST" name="checkOutTheProduct" finished-at="2024-09-25T18:09:03 IST" duration-ms="427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jhon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Erric]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[535558]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutTheProduct -->
+        <test-method signature="logOutApplication()[pri:5, instance:com.swagTest.SwagLabsTest@6a62689d]" started-at="2024-09-25T18:09:03 IST" name="logOutApplication" finished-at="2024-09-25T18:09:03 IST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.swagTest.SwagLabsTest@6a62689d]" started-at="2024-09-25T18:09:03 IST" name="closeBrowser" finished-at="2024-09-25T18:09:03 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.swagTest.SwagLabsTest -->
+    </test> <!-- TestOnChrome -->
+    <test started-at="2024-09-25T18:08:58 IST" name="TestOnEdge" finished-at="2024-09-25T18:09:04 IST" duration-ms="5990">
+      <class name="com.swagTest.SwagLabsTest">
+        <test-method is-config="true" signature="intialBrowserSetUp(java.lang.String)[pri:0, instance:com.swagTest.SwagLabsTest@6c6357f9]" started-at="2024-09-25T18:08:58 IST" name="intialBrowserSetUp" finished-at="2024-09-25T18:09:00 IST" duration-ms="1713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialBrowserSetUp -->
+        <test-method signature="launchApp(java.lang.String)[pri:0, instance:com.swagTest.SwagLabsTest@6c6357f9]" started-at="2024-09-25T18:09:00 IST" name="launchApp" finished-at="2024-09-25T18:09:00 IST" duration-ms="437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="Swaglogin(java.lang.String,java.lang.String)[pri:1, instance:com.swagTest.SwagLabsTest@6c6357f9]" started-at="2024-09-25T18:09:01 IST" name="Swaglogin" finished-at="2024-09-25T18:09:01 IST" duration-ms="809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Swaglogin -->
+        <test-method signature="addingProductToCartAndRemove()[pri:2, instance:com.swagTest.SwagLabsTest@6c6357f9]" started-at="2024-09-25T18:09:01 IST" name="addingProductToCartAndRemove" finished-at="2024-09-25T18:09:02 IST" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingProductToCartAndRemove -->
+        <test-method signature="addProductToCart()[pri:3, instance:com.swagTest.SwagLabsTest@6c6357f9]" started-at="2024-09-25T18:09:02 IST" name="addProductToCart" finished-at="2024-09-25T18:09:02 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method signature="checkOutTheProduct(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.swagTest.SwagLabsTest@6c6357f9]" started-at="2024-09-25T18:09:02 IST" name="checkOutTheProduct" finished-at="2024-09-25T18:09:03 IST" duration-ms="523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jhon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Erric]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[535558]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutTheProduct -->
+        <test-method signature="logOutApplication()[pri:5, instance:com.swagTest.SwagLabsTest@6c6357f9]" started-at="2024-09-25T18:09:03 IST" name="logOutApplication" finished-at="2024-09-25T18:09:03 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.swagTest.SwagLabsTest@6c6357f9]" started-at="2024-09-25T18:09:03 IST" name="closeBrowser" finished-at="2024-09-25T18:09:04 IST" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.swagTest.SwagLabsTest -->
+    </test> <!-- TestOnEdge -->
+    <test started-at="2024-09-25T18:08:58 IST" name="TestOnFirefox" finished-at="2024-09-25T18:09:08 IST" duration-ms="9223">
+      <class name="com.swagTest.SwagLabsTest">
+        <test-method is-config="true" signature="intialBrowserSetUp(java.lang.String)[pri:0, instance:com.swagTest.SwagLabsTest@4b6579e8]" started-at="2024-09-25T18:08:58 IST" name="intialBrowserSetUp" finished-at="2024-09-25T18:09:02 IST" duration-ms="4021" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialBrowserSetUp -->
+        <test-method signature="launchApp(java.lang.String)[pri:0, instance:com.swagTest.SwagLabsTest@4b6579e8]" started-at="2024-09-25T18:09:02 IST" name="launchApp" finished-at="2024-09-25T18:09:03 IST" duration-ms="795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.saucedemo.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="Swaglogin(java.lang.String,java.lang.String)[pri:1, instance:com.swagTest.SwagLabsTest@4b6579e8]" started-at="2024-09-25T18:09:03 IST" name="Swaglogin" finished-at="2024-09-25T18:09:04 IST" duration-ms="511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Swaglogin -->
+        <test-method signature="addingProductToCartAndRemove()[pri:2, instance:com.swagTest.SwagLabsTest@4b6579e8]" started-at="2024-09-25T18:09:04 IST" name="addingProductToCartAndRemove" finished-at="2024-09-25T18:09:05 IST" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingProductToCartAndRemove -->
+        <test-method signature="addProductToCart()[pri:3, instance:com.swagTest.SwagLabsTest@4b6579e8]" started-at="2024-09-25T18:09:05 IST" name="addProductToCart" finished-at="2024-09-25T18:09:06 IST" duration-ms="932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method signature="checkOutTheProduct(java.lang.String,java.lang.String,java.lang.String)[pri:4, instance:com.swagTest.SwagLabsTest@4b6579e8]" started-at="2024-09-25T18:09:06 IST" name="checkOutTheProduct" finished-at="2024-09-25T18:09:06 IST" duration-ms="784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jhon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Erric]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[535558]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutTheProduct -->
+        <test-method signature="logOutApplication()[pri:5, instance:com.swagTest.SwagLabsTest@4b6579e8]" started-at="2024-09-25T18:09:06 IST" name="logOutApplication" finished-at="2024-09-25T18:09:07 IST" duration-ms="433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOutApplication -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.swagTest.SwagLabsTest@4b6579e8]" started-at="2024-09-25T18:09:07 IST" name="closeBrowser" finished-at="2024-09-25T18:09:08 IST" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.swagTest.SwagLabsTest -->
+    </test> <!-- TestOnFirefox -->
+  </suite> <!-- TestSuite -->
+</testng-results>

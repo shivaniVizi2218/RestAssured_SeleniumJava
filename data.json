@@ -1,0 +1,15 @@
+{
+	
+	"getUserRequestUrl":"https://reqres.in/api/users?page=2",
+	"createUserPostRequestUrl":"https://reqres.in/api/users",
+	"updateUserPutRequestUrl":"https://reqres.in/api/users/",
+	"deleteUserDeleteRequestUrl":"https://reqres.in/api/users/",
+	"createUser":{
+	"name":"Smith",
+	"job":"Intern"
+	},
+	"updateUser":{
+		"name":"Jhon",
+			"job":"SDET"
+	}
+}

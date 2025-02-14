@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestSuite" class="navigator-link">
+              <span class="suite-name border-passed">TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestSuite" class="navigator-link ">
+                    <span>C:\Users\Seetham\eclipse-workspace\SwagLabsTest\src\test\resources\MyTest.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestSuite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods passed suite-TestSuite"> (hide)</a> <!-- hide-methods passed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods passed suite-TestSuite"> (show)</a> <!-- show-methods passed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="Swaglogin(standard_user, secret_sauce)">Swaglogin(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="Swaglogin(standard_user, secret_sauce)">Swaglogin(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="Swaglogin(standard_user, secret_sauce)">Swaglogin(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="addProductToCart">addProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="addProductToCart">addProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="addProductToCart">addProductToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="addingProductToCartAndRemove">addingProductToCartAndRemove</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="addingProductToCartAndRemove">addingProductToCartAndRemove</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="addingProductToCartAndRemove">addingProductToCartAndRemove</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="checkOutTheProduct(Jhon, Erric, 535558)">checkOutTheProduct(Jhon, Erric, 535558)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="checkOutTheProduct(Jhon, Erric, 535558)">checkOutTheProduct(Jhon, Erric, 535558)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="checkOutTheProduct(Jhon, Erric, 535558)">checkOutTheProduct(Jhon, Erric, 535558)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="launchApp(https://www.saucedemo.com/)">launchApp(https://www.saucedemo.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="launchApp(https://www.saucedemo.com/)">launchApp(https://www.saucedemo.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="launchApp(https://www.saucedemo.com/)">launchApp(https://www.saucedemo.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="logOutApplication">logOutApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="logOutApplication">logOutApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuite" title="com.swagTest.SwagLabsTest" class="method navigator-link" hash-for-method="logOutApplication">logOutApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuite" class="panel TestSuite">
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.swagTest.SwagLabsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Swaglogin(standard_user, secret_sauce)">
+                  </a> <!-- Swaglogin(standard_user, secret_sauce) -->
+                  <span class="method-name">Swaglogin</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Swaglogin(standard_user, secret_sauce)">
+                  </a> <!-- Swaglogin(standard_user, secret_sauce) -->
+                  <span class="method-name">Swaglogin</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Swaglogin(standard_user, secret_sauce)">
+                  </a> <!-- Swaglogin(standard_user, secret_sauce) -->
+                  <span class="method-name">Swaglogin</span>
+                  <span class="parameters">(standard_user,secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductToCart">
+                  </a> <!-- addProductToCart -->
+                  <span class="method-name">addProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductToCart">
+                  </a> <!-- addProductToCart -->
+                  <span class="method-name">addProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addProductToCart">
+                  </a> <!-- addProductToCart -->
+                  <span class="method-name">addProductToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingProductToCartAndRemove">
+                  </a> <!-- addingProductToCartAndRemove -->
+                  <span class="method-name">addingProductToCartAndRemove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingProductToCartAndRemove">
+                  </a> <!-- addingProductToCartAndRemove -->
+                  <span class="method-name">addingProductToCartAndRemove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addingProductToCartAndRemove">
+                  </a> <!-- addingProductToCartAndRemove -->
+                  <span class="method-name">addingProductToCartAndRemove</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutTheProduct(Jhon, Erric, 535558)">
+                  </a> <!-- checkOutTheProduct(Jhon, Erric, 535558) -->
+                  <span class="method-name">checkOutTheProduct</span>
+                  <span class="parameters">(Jhon,Erric,535558)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutTheProduct(Jhon, Erric, 535558)">
+                  </a> <!-- checkOutTheProduct(Jhon, Erric, 535558) -->
+                  <span class="method-name">checkOutTheProduct</span>
+                  <span class="parameters">(Jhon,Erric,535558)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutTheProduct(Jhon, Erric, 535558)">
+                  </a> <!-- checkOutTheProduct(Jhon, Erric, 535558) -->
+                  <span class="method-name">checkOutTheProduct</span>
+                  <span class="parameters">(Jhon,Erric,535558)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp(https://www.saucedemo.com/)">
+                  </a> <!-- launchApp(https://www.saucedemo.com/) -->
+                  <span class="method-name">launchApp</span>
+                  <span class="parameters">(https://www.saucedemo.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp(https://www.saucedemo.com/)">
+                  </a> <!-- launchApp(https://www.saucedemo.com/) -->
+                  <span class="method-name">launchApp</span>
+                  <span class="parameters">(https://www.saucedemo.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchApp(https://www.saucedemo.com/)">
+                  </a> <!-- launchApp(https://www.saucedemo.com/) -->
+                  <span class="method-name">launchApp</span>
+                  <span class="parameters">(https://www.saucedemo.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutApplication">
+                  </a> <!-- logOutApplication -->
+                  <span class="method-name">logOutApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutApplication">
+                  </a> <!-- logOutApplication -->
+                  <span class="method-name">logOutApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logOutApplication">
+                  </a> <!-- logOutApplication -->
+                  <span class="method-name">logOutApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+        </div> <!-- panel TestSuite -->
+        <div panel-name="test-xml-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Seetham\eclipse-workspace\SwagLabsTest\src\test\resources\MyTest.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;zipcode&quot; value=&quot;535558&quot;/&gt;
+  &lt;parameter name=&quot;password&quot; value=&quot;secret_sauce&quot;/&gt;
+  &lt;parameter name=&quot;firstname&quot; value=&quot;Jhon&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://www.saucedemo.com/&quot;/&gt;
+  &lt;parameter name=&quot;username&quot; value=&quot;standard_user&quot;/&gt;
+  &lt;parameter name=&quot;lastname&quot; value=&quot;Erric&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.swagTest.utils.ITestListenerClass&quot;/&gt;
+    &lt;listener class-name=&quot;com.swagTest.utils.AllureResultsCleanUpListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;TestOnChrome&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.swagTest.SwagLabsTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;launchApp&quot;/&gt;
+          &lt;include name=&quot;Swaglogin&quot;/&gt;
+          &lt;include name=&quot;addingProductToCartAndRemove&quot;/&gt;
+          &lt;include name=&quot;addProductToCart&quot;/&gt;
+          &lt;include name=&quot;checkOutTheProduct&quot;/&gt;
+          &lt;include name=&quot;logOutApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.swagTest.SwagLabsTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestOnChrome --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;TestOnFirefox&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.swagTest.SwagLabsTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;launchApp&quot;/&gt;
+          &lt;include name=&quot;Swaglogin&quot;/&gt;
+          &lt;include name=&quot;addingProductToCartAndRemove&quot;/&gt;
+          &lt;include name=&quot;addProductToCart&quot;/&gt;
+          &lt;include name=&quot;checkOutTheProduct&quot;/&gt;
+          &lt;include name=&quot;logOutApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.swagTest.SwagLabsTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestOnFirefox --&gt;
+  &lt;test thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;TestOnEdge&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.swagTest.SwagLabsTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;launchApp&quot;/&gt;
+          &lt;include name=&quot;Swaglogin&quot;/&gt;
+          &lt;include name=&quot;addingProductToCartAndRemove&quot;/&gt;
+          &lt;include name=&quot;addProductToCart&quot;/&gt;
+          &lt;include name=&quot;checkOutTheProduct&quot;/&gt;
+          &lt;include name=&quot;logOutApplication&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.swagTest.SwagLabsTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestOnEdge --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestOnChrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestOnFirefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">TestOnEdge (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite');
+function tableData_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'launchApp')
+data.setCell(0, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(0, 3, 1118);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'addingProductToCartAndRemove')
+data.setCell(1, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(1, 3, 937);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'addProductToCart')
+data.setCell(2, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(2, 3, 932);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Swaglogin')
+data.setCell(3, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(3, 3, 809);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'launchApp')
+data.setCell(4, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(4, 3, 795);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkOutTheProduct')
+data.setCell(5, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(5, 3, 784);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkOutTheProduct')
+data.setCell(6, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(6, 3, 523);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Swaglogin')
+data.setCell(7, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(7, 3, 511);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addProductToCart')
+data.setCell(8, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(8, 3, 477);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addingProductToCartAndRemove')
+data.setCell(9, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(9, 3, 471);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'addingProductToCartAndRemove')
+data.setCell(10, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(10, 3, 460);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Swaglogin')
+data.setCell(11, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(11, 3, 453);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'addProductToCart')
+data.setCell(12, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(12, 3, 446);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'launchApp')
+data.setCell(13, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(13, 3, 437);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'logOutApplication')
+data.setCell(14, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(14, 3, 433);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkOutTheProduct')
+data.setCell(15, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(15, 3, 427);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'logOutApplication')
+data.setCell(16, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(16, 3, 208);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'logOutApplication')
+data.setCell(17, 2, 'com.swagTest.SwagLabsTest')
+data.setCell(17, 3, 197);
+window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-TestSuite">
+              </div> <!-- times-div-TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.swagTest.SwagLabsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">intialBrowserSetUp(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">intialBrowserSetUp(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">intialBrowserSetUp(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">launchApp(https://www.saucedemo.com/)</span>
+                <span class="method-start">1748 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApp(https://www.saucedemo.com/)</span>
+                <span class="method-start">1748 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Swaglogin(standard_user, secret_sauce)</span>
+                <span class="method-start">2252 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Swaglogin(standard_user, secret_sauce)</span>
+                <span class="method-start">2873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addingProductToCartAndRemove</span>
+                <span class="method-start">3065 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addingProductToCartAndRemove</span>
+                <span class="method-start">3329 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProductToCart</span>
+                <span class="method-start">3539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProductToCart</span>
+                <span class="method-start">3794 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOutTheProduct(Jhon, Erric, 535558)</span>
+                <span class="method-start">3988 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">launchApp(https://www.saucedemo.com/)</span>
+                <span class="method-start">4023 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOutTheProduct(Jhon, Erric, 535558)</span>
+                <span class="method-start">4273 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logOutApplication</span>
+                <span class="method-start">4513 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logOutApplication</span>
+                <span class="method-start">4702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">4724 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">Swaglogin(standard_user, secret_sauce)</span>
+                <span class="method-start">4823 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">4901 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="test-method">
+                <span class="method-name">addingProductToCartAndRemove</span>
+                <span class="method-start">5338 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addProductToCart</span>
+                <span class="method-start">6277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOutTheProduct(Jhon, Erric, 535558)</span>
+                <span class="method-start">7215 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logOutApplication</span>
+                <span class="method-start">8001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">8436 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

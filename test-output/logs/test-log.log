@@ -1,0 +1,18 @@
+2024-09-23 12:16:43 [TestNG-tests-3] INFO  com.swagTest.SwagLabsTest - Application launched successfully
+2024-09-23 12:16:43 [TestNG-tests-1] INFO  com.swagTest.SwagLabsTest - Application launched successfully
+2024-09-23 12:16:45 [TestNG-tests-3] INFO  com.swagTest.SwagLabsTest - Login is successful
+2024-09-23 12:16:45 [TestNG-tests-1] INFO  com.swagTest.SwagLabsTest - Login is successful
+2024-09-23 12:16:46 [TestNG-tests-3] INFO  com.swagTest.SwagLabsTest - Item added to cart and removed it
+2024-09-23 12:16:46 [TestNG-tests-1] INFO  com.swagTest.SwagLabsTest - Item added to cart and removed it
+2024-09-23 12:16:47 [TestNG-tests-1] INFO  com.swagTest.SwagLabsTest - Item added to cart
+2024-09-23 12:16:47 [TestNG-tests-3] INFO  com.swagTest.SwagLabsTest - Item added to cart
+2024-09-23 12:16:48 [TestNG-tests-1] INFO  com.swagTest.SwagLabsTest - Item is checked-out and entered the details
+2024-09-23 12:16:48 [TestNG-tests-3] INFO  com.swagTest.SwagLabsTest - Item is checked-out and entered the details
+2024-09-23 12:16:48 [TestNG-tests-1] INFO  com.swagTest.SwagLabsTest - Successfully logged out from the application
+2024-09-23 12:16:48 [TestNG-tests-3] INFO  com.swagTest.SwagLabsTest - Successfully logged out from the application
+2024-09-23 12:16:50 [TestNG-tests-2] INFO  com.swagTest.SwagLabsTest - Application launched successfully
+2024-09-23 12:16:51 [TestNG-tests-2] INFO  com.swagTest.SwagLabsTest - Login is successful
+2024-09-23 12:16:52 [TestNG-tests-2] INFO  com.swagTest.SwagLabsTest - Item added to cart and removed it
+2024-09-23 12:16:53 [TestNG-tests-2] INFO  com.swagTest.SwagLabsTest - Item added to cart
+2024-09-23 12:16:54 [TestNG-tests-2] INFO  com.swagTest.SwagLabsTest - Item is checked-out and entered the details
+2024-09-23 12:16:55 [TestNG-tests-2] INFO  com.swagTest.SwagLabsTest - Successfully logged out from the application
